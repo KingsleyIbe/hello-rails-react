@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HelloWorld from './HelloWorld';
 import Home from './Home';
+import Greeting from './Greeting';
 
 class App extends React.Component {
   render () {
@@ -12,6 +13,7 @@ class App extends React.Component {
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/hello" element={<HelloWorld />} />
+              <Route path="/greetings" element={<Greeting />} />
             </Routes>
           </BrowserRouter>
     );
