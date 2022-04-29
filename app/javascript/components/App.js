@@ -3,13 +3,14 @@ import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HelloWorld from './HelloWorld';
+import Home from './Home';
 
 class App extends React.Component {
   render () {
     return (
     <BrowserRouter>
             <Routes>
-              <Route path="/" element={<HelloWorld/>} />
+              <Route path="/" element={<Home/>} />
               <Route path="/hello" element={<HelloWorld />} />
             </Routes>
           </BrowserRouter>
