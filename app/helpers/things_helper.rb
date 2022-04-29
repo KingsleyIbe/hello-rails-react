@@ -1,2 +1,2 @@
-module V1::ThingsHelper
+module ThingsHelper
 end
