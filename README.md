@@ -27,7 +27,6 @@ _To get a local copy up and running follow these simple steps._
    rails s
    ```
 
-
 # Testing
 
 `bundle exec rspec` will run all the tests.
