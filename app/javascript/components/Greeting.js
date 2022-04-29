@@ -5,7 +5,7 @@ class Greeting extends React.Component {
     return (
       <React.Fragment>
         <h1>Hello Friend, Welcome to our First Rails-React app</h1>
-        <p>🥳 🥳 🥳 Feels good to rails the react 🥳 🥳 🥳</p>
+        <p>🥳 🥳 🥳 🥳 Feels good to rails the react 🥳 🥳 🥳 🥳</p>
       </React.Fragment>
     );
   }
